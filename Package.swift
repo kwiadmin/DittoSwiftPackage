@@ -8,7 +8,6 @@ let package = Package(
     products: [
         .library(
             name: "DittoSwift",
-            type: .dynamic,
             targets: ["DittoSwiftWrapper"]),
         .library(
             name: "DittoObjC",
